@@ -1,0 +1,65 @@
+.main-header {
+  text-align : center;
+  font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight : bold;
+  font-size : 20px;
+}
+
+.article-1 {
+  justify-content: center;
+  text-align: justify;
+}
+
+.sub-header {
+  text-align : center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight : bold;
+  color:crimson;
+}
+
+input[type=number]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 
+}
+
+label.input{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color:darkslategrey;
+}
+
+.button-hitung {
+    background-color: rgb(181, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 253, 253);
+    border: none;
+    height: 36px;
+    width: 150px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: opacity 0.15;
+}
+
+.button-reset {
+  background-color: rgb(181, 0, 0);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 253, 253);
+  border: none;
+  height: 36px;
+  width: 150px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.15;
+}
+
+
