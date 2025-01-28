@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css\style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bubbler+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <title> KALKULATOR BMI</title>
@@ -17,38 +21,82 @@
 
     <!-- Artikel Pertama -->
       <article class="article-1">
-          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde a aspernatur eligendi omnis. 
-            Sit unde ratione, molestiae eaque laudantium possimus debitis necessitatibus 
-            quaerat quidem dicta aliquam? Ad hic exercitationem reiciendis!.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde a aspernatur eligendi omnis. 
-            Sit unde ratione, molestiae eaque laudantium possimus debitis necessitatibus 
-            quaerat quidem dicta aliquam? Ad hic exercitationem reiciendis!.
+          <p> Berat badan ideal adalah impian <strong>semua orang.</strong> Tidak hanya memiliki bentuk tubuh
+            yang menunjang secara penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat.
+            Bagaimana denganmu?
+            <br><br>
+            Yuk hitung sekarang di <strong>kalkulator BMI.</strong>
           </p>
         </article>
 
       <!-- judul input personal data -->
       <header class="sub-header">
-          <h2> Input Personal Data</h2>
+        <div class="header-icon">
+          <i class="fa-solid fa-address-book"></i>
+          <h2> INPUT BIODATA</h2>
+        </div>
       </header>
       
       <!-- form input -->
-          <div class="form-input">
-            <label class="input" for ="input-berat-badan"> Berat Badan (Kg): </label>
-            <input type="number" id="input-berat-badan">
-          </div>
+          <form class="form-input">
+            <div>
+              <label class="input" for ="jenis kelamin"> Jenis Kelamin: </label>
+              <br><br>
+              <input type="radio" id="html" name="jenis kelamin" value="Pria" style="height:20px; width:20px; vertical-align: middle;">
+              <label for="Pria" style="padding:10px; font-weight: bold; color:darkslategrey;"> Pria </label>
 
-          <div class="form-input">
-            <label class="input" for ="input-usia"> Usia (tahun):</label>
-            <input type="number" id="input-usia">
-          </div>
+              <input type="radio" id="html" name="jenis kelamin" value="Wanita"  style="height:20px; width:20px; vertical-align: middle;">
+              <label for="Wanita" style="padding:10px; font-weight: bold; color:darkslategrey;"> Wanita </label>
+            </div>
 
-          <div class="form-input">
-            <label class="input" for ="input-tinggi-badan"> Tinggi Badan (cm):</label>
-            <input type="number" id="input-tinggi-badan">
-          </div>
+            <div style="margin-top: 20px;">
+              <label class="input" for ="input-berat-badan"> Berat Badan (Kg): </label>
+              <div class="input-icon">
+              <input type="number" id="input-berat-badan" placeholder="Input berat badan">
+              <i class="fa fa-pencil"></i>
+            </div>
+          
+              <label class="input" for ="input-usia"> Usia (tahun):</label>
+              <div class="input-icon">
+              <input type="number" id="input-usia" placeholder="Input usia">
+              <i class="fa fa-pencil"></i>
+            </div>
 
+              <label class="input" for ="input-tinggi-badan"> Tinggi Badan (cm):</label>
+              <div class="input-icon">
+              <input type="number" id="input-tinggi-badan" placeholder="Input tinggi badan">
+              <i class="fa fa-pencil"></i>
+            </div>
+
+            </div>
+          </form>
+
+          <div style="height:40px;"></div>
+
+
+        <!-- button -->
           <button class="button-hitung"> Hitung BMI </button>
           <button class="button-reset"> Reset </button>
+
+    <br><br>
+  <article class="article-2">
+    <h2> <strong>Keunggulan Fitur </strong></h2>
+    <ol>
+      <li> Menghitung berat badan</li>
+      <li> Menentukan kategori berat badan ideal atau tidak</li>
+      <li> Mempersiapkan program penurunan berat badan</li>
+    </ol>
+    <br>
+    <p>Kalkulator ini hanya boleh digunakan oleh <strong>orang dewasa</strong> (<em>wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini</em>)
+    dan tidak ada tindakan yang harus diambil berdasarkan nilainya, selain berkonsultasi dengan orang yang memenuhi syarat standar kedokteran
+    seperti petugas medis, dokter dan ahli profesi lainnya.
+    <br> <br>
+    Kalkulator akan memberikan gambaran tentang perbandingan berat badan  Anda dengan nilai umum.
+    Indeks masa tubuh (BMI) dihitung dalam unit pengukuran (dalam kilogram) sebagai berat badan dan dibagi dengan kuadrat tinggi badan (dalam meter),
+    atau di-representasikan dengan formula <strong>BMI = Kg/M2</strong>
+  
+  </p>
+  </article>
 
 
 
@@ -59,5 +107,5 @@
 
 
     </footer>
-</body>
+  </div>
 </html>
